@@ -70,3 +70,7 @@ cite {
 a:hover {
   background-color: #b20953;
 }
+
+.nav .current{
+  background-color: red;
+}
