@@ -1,0 +1,60 @@
+html {
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+
+}
+
+body {
+  background-color: #ffe500;
+  color: #cc1465;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  list-style-type: square;
+  display: block;
+  background-color: #2f2d13;
+  color: white;
+padding:0.2em 0.5em 0.3em;
+margin: 1.5;
+border: 10px;
+border-radius: 10px;
+}
+
+h1 {
+  font-family: "Sigmar One", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Sigmar One", cursive;
+  font-size: 1.875rem;
+  text-align: left;
+}
+
+p {
+font-family: Georgia, sans-serif;
+color: #2f2d13;
+line-height: 1.5;
+}
+
+section {
+  background-color: #ffffff;
+  list-style-type: square;
+  padding: 0.2em 0.5em 0.3em;
+ border: 10px solid #ffffff;
+}
+
+cite{
+  background-color: #ffe500;
+  color: #2f2d13;
+  font-size: 0.75rem;
+  text-align: center;
+}
