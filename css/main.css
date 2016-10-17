@@ -8,6 +8,12 @@ html {
 
 }
 
+header {
+  background-color: #ffe500;
+  color: #cc1465;
+  margin: 0;
+}
+
 body {
   background-color: #ffe500;
   color: #cc1465;
@@ -71,6 +77,12 @@ a:hover {
   background-color: #b20953;
 }
 
-.nav .current{
+footer {
+  background-color: #ffe500;
+  color: #cc1465;
+  margin: 0;
+}
+
+.nav .current {
   background-color: red;
 }
