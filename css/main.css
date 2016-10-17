@@ -1,6 +1,9 @@
 html {
+  background-color: #fff;
   font-family: Georgia, serif;
   box-sizing: border-box;
+  line-height: 1.5;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -12,13 +15,14 @@ header {
   background-color: #ffe500;
   color: #cc1465;
   margin: 0;
+  padding:0.2em 0.5em 0.3em;
   padding: 0 0 0.4em;
 }
 
 body {
-  background-color: #ffe500;
   color: #cc1465;
   margin: 0;
+  padding: 0.2em;
 }
 
 li {
@@ -32,27 +36,31 @@ li {
   color: white;
   padding:0.2em 0.5em 0.3em;
   margin: 0;
-  border: 3px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 img {
   width: 100%;
   display: block;
-}
-
-h1 {
-  font-family: "Sigmar One", cursive;
-  font-size: 3rem;
+  max-width: 25em;
+  padding: 0;
+  margin:0.3em;
   text-align: center;
-  margin: 0;
 }
 
 h2 {
   font-family: "Sigmar One", cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   text-align: left;
-  margin: 0;
+  margin: 0.2em;
 }
 
 p {
@@ -62,17 +70,10 @@ p {
   padding: 0 0 0.4em;
 }
 
-section {
-  background-color: #fff;
-  list-style-type: square;
-  padding: 0.2em;
-}
-
 cite {
   background-color: #ffe500;
   color: #2f2d13;
   font-size: 0.75rem;
-  text-align: center;
 }
 
 .nav a:hover {
@@ -83,8 +84,9 @@ footer {
   background-color: #ffe500;
   color: #cc1465;
   margin: 0;
+  padding: 10px;
 }
 
 .nav .current {
-  background-color: red;
+  background-color: #b20953;
 }
