@@ -12,6 +12,7 @@ header {
   background-color: #ffe500;
   color: #cc1465;
   margin: 0;
+  padding: 0 0 0.4em;
 }
 
 body {
@@ -24,14 +25,14 @@ li {
   display: inline-block;
 }
 
-a {
+.nav a {
   list-style-type: square;
   display: block;
   background-color: #b2a212;
   color: white;
   padding:0.2em 0.5em 0.3em;
   margin: 0;
-  border: 10px;
+  border: 3px;
   border-radius: 5px;
 }
 
@@ -51,19 +52,20 @@ h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   text-align: left;
+  margin: 0;
 }
 
 p {
   font-family: Georgia, sans-serif;
   color: #2f2d13;
   line-height: 1.5;
+  padding: 0 0 0.4em;
 }
 
 section {
   background-color: #fff;
   list-style-type: square;
-  padding: 0.2em 0.5em 0.3em;
-  border: 10px solid #fff;
+  padding: 0.2em;
 }
 
 cite {
@@ -73,7 +75,7 @@ cite {
   text-align: center;
 }
 
-a:hover {
+.nav a:hover {
   background-color: #b20953;
 }
 
